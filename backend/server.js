@@ -9,8 +9,8 @@ const taskRoutes = require("./routes/taskRoutes");
 const app = express();
 
 // Use .env variables
-const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI;
+//add your port..
+
 
 app.use(cors());
 app.use(express.json());
